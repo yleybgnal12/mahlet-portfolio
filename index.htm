@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Mahlet Mulugeta - Aspiring Full-Stack Developer Portfolio"
+    />
+
+    <title>Mahlet Mulugeta | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+      <a href="#home" class="logo"> Mahlet<span>.</span> </a>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button id="theme-toggle" aria-label="Toggle color theme">☀️</button>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="intro">HELLO, I'M</p>
+
+        <h1>Mahlet <span>Mulugeta</span></h1>
+
+        <h2>Aspiring Full-Stack Developer</h2>
+
+        <p class="description">
+          I am passionate about technology, programming, and building modern
+          software applications. I enjoy learning new technologies and solving
+          real-world problems.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary-btn"> View Projects → </a>
+
+          <a href="assets/Mahlet-CV.pdf" class="btn secondary-btn" download>
+            Download CV ↓
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="mahlet.jpg" alt="Mahlet Mulugeta" />
+      </div>
+    </section>
+
+    <!-- STATISTICS -->
+    <section class="stats">
+      <div class="stat-card">
+        <h2>HTML & CSS</h2>
+        <p>Frontend Development</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>JavaScript</h2>
+        <p>Programming Logic</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>Git & GitHub</h2>
+        <p>Version Control</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>Full-Stack</h2>
+        <p>Career Goal</p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about reveal" id="about">
+      <p class="section-label">GET TO KNOW ME</p>
+
+      <h2>About Me</h2>
+
+      <p>
+        I am Mahlet Mulugeta, an aspiring Full-Stack Developer and a Software
+        Engineering student at Haramaya University. I am passionate about
+        programming, technology, and creating useful software applications. My
+        goal is to become a professional developer and build innovative
+        solutions that solve real-world problems.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills reveal" id="skills">
+      <p class="section-label">WHAT I AM LEARNING</p>
+
+      <h2>My Technical Skills</h2>
+
+      <div class="skill-card">
+        <div class="skill-heading">
+          <h3>HTML</h3>
+          <span>Learning</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar html"></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-heading">
+          <h3>CSS</h3>
+          <span>Learning</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar css"></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-heading">
+          <h3>JavaScript</h3>
+          <span>Learning</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar javascript"></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-heading">
+          <h3>Git & GitHub</h3>
+          <span>Learning</span>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar git"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects reveal" id="projects">
+      <p class="section-label">MY RECENT WORK</p>
+
+      <h2>My Projects</h2>
+
+      <div class="project-container">
+        <div class="project-card">
+          <span class="project-number">01</span>
+
+          <h3>Personal Portfolio</h3>
+
+          <p>My personal website built using HTML, CSS and JavaScript.</p>
+
+          <a href="#home" class="project-btn"> Explore Project → </a>
+        </div>
+
+        <div class="project-card">
+          <span class="project-number">02</span>
+
+          <h3>Calculator</h3>
+
+          <p>A simple calculator application developed using JavaScript.</p>
+
+          <a href="#" class="project-btn"> Coming Soon → </a>
+        </div>
+
+        <div class="project-card">
+          <span class="project-number">03</span>
+
+          <h3>Student Management</h3>
+
+          <p>A student information management application project.</p>
+
+          <a href="#" class="project-btn"> Coming Soon → </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact reveal" id="contact">
+      <p class="section-label">LET'S CONNECT</p>
+
+      <h2>Contact Me</h2>
+
+      <p class="contact-description">
+        Have a question or opportunity? Feel free to contact me.
+      </p>
+
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+
+        <input type="email" id="email" placeholder="Your Email" required />
+
+        <textarea id="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message →</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p id="footer-text"></p>
+
+      <p>Designed & Built by Mahlet Mulugeta 💜</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
